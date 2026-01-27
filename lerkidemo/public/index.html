@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Lekri frisörsalong i Sandviken med personliga klippningar, färg och styling. Boka tid direkt via vår widget."
+    />
+    <title>Lekri | Frisörsalong</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header" id="top">
+        <nav class="nav">
+          <a class="logo" href="#top" aria-label="Lekri">
+            <img
+              class="logo-img"
+              src="assets/logo-white.png"
+              alt="Lekri logo"
+              data-logo
+            />
+            <span class="logo-text" data-logo-text hidden>LEKRI</span>
+          </a>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+          </button>
+          <div class="nav-links" id="nav-menu">
+            <a href="#om">Om oss</a>
+            <a href="#tjanster">Våra tjänster</a>
+            <a href="#produkter">Våra produkter</a>
+            <a href="#kontakt">Kontakta oss</a>
+            <a class="btn btn-solid" href="#boka">Boka tid</a>
+          </div>
+          <div class="nav-icons">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path
+                  d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-5 3.5a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm6.1-.7a1.1 1.1 0 1 1-2.2 0a1.1 1.1 0 0 1 2.2 0z"
+                />
+              </svg>
+            </a>
+            <a href="mailto:hej@lekri.se" aria-label="E-post">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path
+                  d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v.5l8 5l8-5V7H4zm16 10V9.9l-8 5l-8-5V17h16z"
+                />
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-media" aria-hidden="true">
+            <img src="assets/hero.jpg" alt="" />
+          </div>
+          <div class="hero-overlay" aria-hidden="true"></div>
+          <div class="hero-content">
+            <p class="eyebrow" data-reveal></p>
+            <h1 data-reveal>Våra behandlingar</h1>
+            <p class="hero-copy" data-reveal>
+              Personligt, kreativt och avslappnat. Vi lyfter fram din stil med
+              skräddarsydda klippningar, färg och form.
+            </p>
+            <div class="hero-actions" data-reveal>
+              <a class="btn btn-outline" href="#om">Mer om oss</a>
+              <a class="btn btn-solid" href="#boka">Boka direkt</a>
+            </div>
+            <div class="hero-stats" data-reveal>
+              <div>
+                <span class="stat-number">10+</span>
+                <span class="stat-label">år av erfarenhet</span>
+              </div>
+              <div>
+                <span class="stat-number">4.9</span>
+                <span class="stat-label">genomsnittligt betyg</span>
+              </div>
+              <div>
+                <span class="stat-number">100%</span>
+                <span class="stat-label">fokus på dig</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="om">
+          <div class="section-inner">
+            <div class="about-content" data-reveal>
+              <p class="eyebrow">Om Lekri</p>
+              <h2>En salong byggd på närvaro och hantverk</h2>
+              <p>
+                Lekri är en frisörsalong där lugn och precision möts.
+                Vi arbetar med lyhörda konsultationer, tydliga planer och
+                resultat som håller över tid.
+              </p>
+              <p>
+                Hos oss får du en helhetsupplevelse med fokus på kvalitet,
+                värdme och ett uttryck som känns som ditt.
+              </p>
+              <div class="about-actions">
+                <a class="btn btn-solid" href="#tjanster">Utforska tjänster</a>
+                <a class="btn btn-ghost" href="#kontakt">Prata med oss</a>
+              </div>
+            </div>
+            <figure class="about-media" data-reveal>
+              <img src="assets/hero.jpg" alt="Interiör från Lekri." />
+              <figcaption>
+                Vår salong är skapad för att ge lugn och inspiration.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section services" id="tjanster">
+          <div class="section-inner">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Våra tjänster</p>
+              <h2>Skräddarsydda behandlingar för varje stil</h2>
+              <p>
+                Vi kombinerar form, färg och textur för att skapa ett resultat
+                som framhäver din personlighet. Välj en behandling eller börja
+                med en konsultation.
+              </p>
+            </div>
+            <div class="service-grid">
+              <article class="service-card" data-reveal>
+                <h3>Klippning</h3>
+                <p>
+                  Form och rörelse anpassas efter ditt hår och din vardag.
+                </p>
+                <div class="service-meta">
+                  <span>60 min</span>
+                  <span>799-999 kr</span>
+                </div>
+              </article>
+              <article class="service-card" data-reveal>
+                <h3>Färgning</h3>
+                <p>
+                  Nyansarbete som lyfter fram lyster och ger ett naturligt djup.
+                </p>
+                <div class="service-meta">
+                  <span>90 min</span>
+                  <span>1999 kr</span>
+                </div>
+              </article>
+              <article class="service-card" data-reveal>
+                <h3>Styling</h3>
+                <p>
+                  Glans, volym och finish för fest, vardag eller fotografering.
+                </p>
+                <div class="service-meta">
+                  <span>60 min</span>
+                  <span>1299 kr</span>
+                </div>
+              </article>
+              <article class="service-card" data-reveal>
+                <h3>Konsultation</h3>
+                <p>
+                  Vi kartlägger ditt hår, din hudton och din vision tillsammans.
+                </p>
+                <div class="service-meta">
+                  <span>30 min</span>
+                  <span>Gratis</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section products" id="produkter">
+          <div class="section-inner">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Våra produkter</p>
+              <h2>Professionell hårvård från Kevin Murphy</h2>
+              <p>
+                Vi använder och säljer Kevin Murphy - premiumprodukter som skyddar färg,
+                bygger styrka och bevarar glans. Alla produkter är framtagna med
+                hållbarhet i fokus och ger långvariga resultat.
+              </p>
+            </div>
+            <div class="product-grid">
+              <div class="product-card" data-reveal>
+                <img class="product-card-image" src="assets/km-repair-wash.jpg" alt="Kevin Murphy REPAIR.ME.WASH" />
+                <div class="product-card-content">
+                  <div class="product-card-header">
+                    <h3>REPAIR.ME.WASH</h3>
+                    <span class="product-price">349 kr</span>
+                  </div>
+                  <p>
+                    Återställande schampo som reparerar och stärker skadat hår.
+                    Perfekt för färgbehandlat och torrt hår.
+                  </p>
+                  <ul>
+                    <li>Återuppbygger hårets struktur</li>
+                    <li>Ger mjukhet och lyster</li>
+                    <li>Färgbevarande formula</li>
+                  </ul>
+                  <a class="btn btn-ghost" href="#kontakt">Fråga om produkten</a>
+                </div>
+              </div>
+              <div class="product-card" data-reveal>
+                <img class="product-card-image" src="assets/km-repair-rinse.jpg" alt="Kevin Murphy REPAIR.ME.RINSE" />
+                <div class="product-card-content">
+                  <div class="product-card-header">
+                    <h3>REPAIR.ME.RINSE</h3>
+                    <span class="product-price">349 kr</span>
+                  </div>
+                  <p>
+                    Återställande balsam som kompletterar REPAIR.ME.WASH
+                    för maximal reparation och lyster.
+                  </p>
+                  <ul>
+                    <li>Djupgående återfuktning</li>
+                    <li>Stärker hårstråna</li>
+                    <li>Underlättar kamning</li>
+                  </ul>
+                  <a class="btn btn-ghost" href="#kontakt">Fråga om produkten</a>
+                </div>
+              </div>
+              <div class="product-card" data-reveal>
+                <img class="product-card-image" src="assets/km-session-spray.jpg" alt="Kevin Murphy SESSION.SPRAY" />
+                <div class="product-card-content">
+                  <div class="product-card-header">
+                    <h3>SESSION.SPRAY</h3>
+                    <span class="product-price">299 kr</span>
+                  </div>
+                  <p>
+                    Flexibel hårspray som ger perfekt stadga utan att kännas
+                    stel. Borstar lätt ut när du vill ändra frisyren.
+                  </p>
+                  <ul>
+                    <li>Mediumhårt håll</li>
+                    <li>Lätt att borsta ut</li>
+                    <li>Ger naturlig glans</li>
+                  </ul>
+                  <a class="btn btn-ghost" href="#kontakt">Fråga om produkten</a>
+                </div>
+              </div>
+              <div class="product-card" data-reveal>
+                <img class="product-card-image" src="assets/km-smooth-wash.jpg" alt="Kevin Murphy SMOOTH.AGAIN.WASH" />
+                <div class="product-card-content">
+                  <div class="product-card-header">
+                    <h3>SMOOTH.AGAIN.WASH</h3>
+                    <span class="product-price">349 kr</span>
+                  </div>
+                  <p>
+                    Utjämnande schampo som tämjer frissigt hår och ger
+                    silkeslen känsla. Idealisk för grovt eller lockigt hår.
+                  </p>
+                  <ul>
+                    <li>Kontrollerar friss</li>
+                    <li>Ger mjukt och hanterbart hår</li>
+                    <li>Värmeskyddande egenskaper</li>
+                  </ul>
+                  <a class="btn btn-ghost" href="#kontakt">Fråga om produkten</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section studio">
+          <div class="section-inner studio-inner" data-reveal>
+            <div>
+              <p class="eyebrow">Lekri upplevelsen</p>
+              <h2>En lugn plats mitt i Sandviken</h2>
+              <p>
+                Vår studio är skapad för att ge utrymme, ljus och en
+                välkomnande känsla. Här kan du landa och känna dig trygg genom
+                hela behandlingen.
+              </p>
+            </div>
+            <div class="studio-card">
+              <h3>Detaljer som gör skillnad</h3>
+              <p>
+                Vi arbetar med tydliga steg, långsiktiga resultat och en
+                avslappnad atmosfär.
+              </p>
+              <div class="studio-list">
+                <div>
+                  <span class="studio-icon">01</span>
+                  <span>Personlig konsultation</span>
+                </div>
+                <div>
+                  <span class="studio-icon">02</span>
+                  <span>Premiumprodukter</span>
+                </div>
+                <div>
+                  <span class="studio-icon">03</span>
+                  <span>Fokus på helheten</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section booking" id="boka">
+          <div class="section-inner" data-reveal>
+            <div class="section-heading">
+              <p class="eyebrow">Boka tid</p>
+              <h2>Välj en tid som passar dig</h2>
+              <p>
+                Använd vår bokningswidget för att se lediga tider och boka direkt.
+              </p>
+            </div>
+            <div class="booking-card">
+              <!-- MobileBooking Widget -->
+              <div id="mobilebooking-widget-bd1f2c21"></div>
+              <script>
+                (function() {
+                  var iframe = document.createElement('iframe');
+                  iframe.src = 'http://localhost:8080/book/bd1f2c21?primary=000000&headerBg=fff5f5&headerIcons=ffffff&layout=default&lang=swedish&textSize=big&prices=1&areaStep=0&config=%7B%22appearance%22%3A%7B%22primaryColor%22%3A%22%23000000%22%2C%22headerBg%22%3A%22%23fff5f5%22%2C%22headerIcons%22%3A%22%23ffffff%22%2C%22logoUrl%22%3A%22%22%2C%22hideBranding%22%3Afalse%7D%2C%22content%22%3A%7B%22startHeading%22%3A%22boka+din+klipptid%22%2C%22startText%22%3A%22v%C3%A4lj+%C3%B6nskad+tj%C3%A4nst%22%2C%22categoryHeading%22%3A%22V%C3%A4lj+k%C3%B6n%22%2C%22categoryText%22%3A%22V%C3%A4lj+kvinna+eller+man+f%C3%B6r+att+forts%C3%A4tta%22%2C%22serviceHeading%22%3A%22V%C3%A4lj+tj%C3%A4nst%22%2C%22serviceText%22%3A%22v%C3%A4lj+en+tj%C3%A4nst+f%C3%B6r+att+forts%C3%A4tta%22%2C%22schedulingHeading%22%3A%22Datum+%26+tid%22%2C%22schedulingText%22%3A%22Valj+ett+datum+och+tid+som+passar+dig.%22%2C%22contactHeading%22%3A%22Snart+klart%22%2C%22contactText%22%3A%22Ange+kontaktuppgifter+for+att+slutfora+bokningen.%22%2C%22contactButton%22%3A%22Boka%22%2C%22confirmationHeading%22%3A%22Tack+for+din+bokning%21%22%2C%22confirmationText%22%3A%22Vi+har+mottagit+din+bokning+och+skickat+en+bekr%C3%A4ftelse+till+din+e-post.%22%7D%2C%22general%22%3A%7B%22serviceArea%22%3A%22address%22%2C%22showServiceAreaStep%22%3Afalse%2C%22showEmployeeStep%22%3Atrue%2C%22layout%22%3A%22default%22%2C%22datePicker%22%3A%22available%22%2C%22language%22%3A%22Swedish%22%2C%22textSize%22%3A%22Big%22%2C%22showPrices%22%3Atrue%2C%22includeTax%22%3Atrue%2C%22autoAdvance%22%3Atrue%2C%22allowCoupons%22%3Afalse%2C%22showAllSteps%22%3Afalse%2C%22showDuration%22%3Afalse%2C%22limitAnimations%22%3Afalse%2C%22use24h%22%3Atrue%2C%22allowMulti%22%3Afalse%2C%22brandingLocked%22%3Atrue%7D%2C%22customQuestions%22%3A%5B%5D%2C%22services%22%3A%5B%7B%22id%22%3A%22svc-daa8614a-7f63-4bf6-b427-fe74dfb8a054%22%2C%22price%22%3A%22999+kr%22%2C%22title%22%3A%22Klippning%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22svc-7c76f1d2-bfc4-4835-82df-caa4b52223f5%22%2C%22price%22%3A%22799%22%2C%22title%22%3A%22Klippning%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-02229ebd-cadd-4f66-a486-522143aeea20%22%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22svc-5d5aabec-28ad-44f8-912f-6d1502368173%22%2C%22price%22%3A%221999%22%2C%22title%22%3A%22F%C3%A4rgning%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22svc-82740f94-77fe-4a7f-8832-ef76325f6ed2%22%2C%22price%22%3A%221299%22%2C%22title%22%3A%22styling%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22description%22%3A%22%22%7D%5D%2C%22categories%22%3A%5B%7B%22id%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22name%22%3A%22Kvinna%22%2C%22visible%22%3Atrue%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22cat-02229ebd-cadd-4f66-a486-522143aeea20%22%2C%22name%22%3A%22Man%22%2C%22visible%22%3Atrue%2C%22description%22%3A%22%22%7D%5D%2C%22territories%22%3A%5B%7B%22id%22%3A1765303858282%2C%22city%22%3A%22City%22%2C%22name%22%3A%22Sandviken%22%2C%22method%22%3A%22polygon%22%2C%22points%22%3A%5B%7B%22id%22%3A1765303840800%2C%22lat%22%3A60.64185094223452%2C%22lng%22%3A16.682895721054063%7D%2C%7B%22id%22%3A1765303841533%2C%22lat%22%3A60.69096289127516%2C%22lng%22%3A16.783145965194688%7D%2C%7B%22id%22%3A1765303843265%2C%22lat%22%3A60.69566832093011%2C%22lng%22%3A17.122348846054063%7D%2C%7B%22id%22%3A1765303843927%2C%22lat%22%3A60.670788965412136%2C%22lng%22%3A17.180027068710313%7D%2C%7B%22id%22%3A1765303845052%2C%22lat%22%3A60.616256160002536%2C%22lng%22%3A17.033084930038438%7D%2C%7B%22id%22%3A1765303846128%2C%22lat%22%3A60.593338340841896%2C%22lng%22%3A16.751560271835313%7D%5D%2C%22status%22%3A%22disabled%22%2C%22country%22%3A%22Country%22%2C%22timezone%22%3A%22Europe%2FStockholm%22%2C%22providers%22%3A%5B%22A1%22%2C%22B2%22%5D%7D%2C%7B%22id%22%3A1765385236369%2C%22city%22%3A%22City%22%2C%22name%22%3A%22New+Territory%22%2C%22method%22%3A%22polygon%22%2C%22points%22%3A%5B%7B%22id%22%3A1765385232788%2C%22lat%22%3A60.650938935491325%2C%22lng%22%3A16.817505062675462%7D%2C%7B%22id%22%3A1765385233358%2C%22lat%22%3A60.63309711863584%2C%22lng%22%3A16.680175961112962%7D%2C%7B%22id%22%3A1765385233844%2C%22lat%22%3A60.58119878908906%2C%22lng%22%3A16.707641781425462%7D%2C%7B%22id%22%3A1765385234280%2C%22lat%22%3A60.58794354775371%2C%22lng%22%3A16.802398861503587%7D%5D%2C%22status%22%3A%22active%22%2C%22country%22%3A%22Country%22%2C%22timezone%22%3A%22Europe%2FStockholm%22%2C%22providers%22%3A%5B%22A1%22%2C%22B2%22%5D%7D%2C%7B%22id%22%3A1768214000921%2C%22city%22%3A%22City%22%2C%22name%22%3A%22New+Territory%22%2C%22method%22%3A%22polygon%22%2C%22points%22%3A%5B%7B%22id%22%3A1768213997132%2C%22lat%22%3A59.403474031350214%2C%22lng%22%3A17.971069515800462%7D%2C%7B%22id%22%3A1768213997615%2C%22lat%22%3A59.38249783106469%2C%22lng%22%3A17.8907319913864%7D%2C%7B%22id%22%3A1768213998173%2C%22lat%22%3A59.352759319572534%2C%22lng%22%3A17.916824520683274%7D%2C%7B%22id%22%3A1768213998716%2C%22lat%22%3A59.364307954854986%2C%22lng%22%3A18.01982134685515%7D%5D%2C%22status%22%3A%22disabled%22%2C%22country%22%3A%22Country%22%2C%22timezone%22%3A%22Europe%2FStockholm%22%2C%22providers%22%3A%5B%22A1%22%2C%22B2%22%5D%7D%5D%7D&start=category';
+                  iframe.style.width = '100%';
+                  iframe.style.height = '750px';
+                  iframe.style.border = '1px solid #e5e7eb';
+                  iframe.style.borderRadius = '14px';
+                  iframe.style.overflow = 'hidden';
+                  iframe.setAttribute('allow', 'fullscreen');
+                  iframe.addEventListener('load', function() {
+                    try {
+                      iframe.contentWindow.postMessage({
+                        type: 'mobilebooking:config',
+                        slug: 'bd1f2c21',
+                        config: {"appearance":{"primaryColor":"#000000","headerBg":"#fff5f5","headerIcons":"#ffffff","logoUrl":"","hideBranding":false},"content":{"startHeading":"boka din klipptid","startText":"v\u00e4lj \u00f6nskad tj\u00e4nst","categoryHeading":"V\u00e4lj k\u00f6n","categoryText":"V\u00e4lj kvinna eller man f\u00f6r att forts\u00e4tta","serviceHeading":"V\u00e4lj tj\u00e4nst","serviceText":"v\u00e4lj en tj\u00e4nst f\u00f6r att forts\u00e4tta","schedulingHeading":"Datum & tid","schedulingText":"Valj ett datum och tid som passar dig.","contactHeading":"Snart klart","contactText":"Ange kontaktuppgifter for att slutfora bokningen.","contactButton":"Boka","confirmationHeading":"Tack for din bokning!","confirmationText":"Vi har mottagit din bokning och skickat en bekr\u00e4ftelse till din e-post."},"general":{"serviceArea":"address","showServiceAreaStep":false,"showEmployeeStep":true,"layout":"default","datePicker":"available","language":"Swedish","textSize":"Big","showPrices":true,"includeTax":true,"autoAdvance":true,"allowCoupons":false,"showAllSteps":false,"showDuration":false,"limitAnimations":false,"use24h":true,"allowMulti":false,"brandingLocked":true},"customQuestions":[],"services":[{"id":"svc-daa8614a-7f63-4bf6-b427-fe74dfb8a054","price":"999 kr","title":"Klippning","visible":true,"duration":"1h","categoryId":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","description":""},{"id":"svc-7c76f1d2-bfc4-4835-82df-caa4b52223f5","price":"799","title":"Klippning","visible":true,"duration":"1h","categoryId":"cat-02229ebd-cadd-4f66-a486-522143aeea20","description":""},{"id":"svc-5d5aabec-28ad-44f8-912f-6d1502368173","price":"1999","title":"F\u00e4rgning","visible":true,"duration":"1h","categoryId":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","description":""},{"id":"svc-82740f94-77fe-4a7f-8832-ef76325f6ed2","price":"1299","title":"styling","visible":true,"duration":"1h","categoryId":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","description":""}],"categories":[{"id":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","name":"Kvinna","visible":true,"description":""},{"id":"cat-02229ebd-cadd-4f66-a486-522143aeea20","name":"Man","visible":true,"description":""}],"territories":[{"id":1765303858282,"city":"City","name":"Sandviken","method":"polygon","points":[{"id":1765303840800,"lat":60.64185094223452,"lng":16.682895721054063},{"id":1765303841533,"lat":60.69096289127516,"lng":16.783145965194688},{"id":1765303843265,"lat":60.69566832093011,"lng":17.122348846054063},{"id":1765303843927,"lat":60.670788965412136,"lng":17.180027068710313},{"id":1765303845052,"lat":60.616256160002536,"lng":17.033084930038438},{"id":1765303846128,"lat":60.593338340841896,"lng":16.751560271835313}],"status":"disabled","country":"Country","timezone":"Europe/Stockholm","providers":["A1","B2"]},{"id":1765385236369,"city":"City","name":"New Territory","method":"polygon","points":[{"id":1765385232788,"lat":60.650938935491325,"lng":16.817505062675462},{"id":1765385233358,"lat":60.63309711863584,"lng":16.680175961112962},{"id":1765385233844,"lat":60.58119878908906,"lng":16.707641781425462},{"id":1765385234280,"lat":60.58794354775371,"lng":16.802398861503587}],"status":"active","country":"Country","timezone":"Europe/Stockholm","providers":["A1","B2"]},{"id":1768214000921,"city":"City","name":"New Territory","method":"polygon","points":[{"id":1768213997132,"lat":59.403474031350214,"lng":17.971069515800462},{"id":1768213997615,"lat":59.38249783106469,"lng":17.8907319913864},{"id":1768213998173,"lat":59.352759319572534,"lng":17.916824520683274},{"id":1768213998716,"lat":59.364307954854986,"lng":18.01982134685515}],"status":"disabled","country":"Country","timezone":"Europe/Stockholm","providers":["A1","B2"]}]}
+                      }, '*');
+                    } catch (e) {}
+                  });
+                  document.getElementById('mobilebooking-widget-bd1f2c21').appendChild(iframe);
+                })();
+              </script>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact" id="kontakt">
+          <div class="section-inner contact-inner">
+            <div class="contact-content" data-reveal>
+              <p class="eyebrow">Kontakt</p>
+              <h2>Vi hjälper dig gärna</h2>
+              <p>
+                Berätta vad du önskar så hittar vi rätt behandling och tid.
+              </p>
+              <div class="contact-details">
+                <div>
+                  <span class="contact-label">Plats</span>
+                  <span>Sandviken</span>
+                </div>
+                <div>
+                  <span class="contact-label">E-post</span>
+                  <span>hej@lekri.se</span>
+                </div>
+                <div>
+                  <span class="contact-label">Telefon</span>
+                  <span>070-000 00 00</span>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form" id="contact-form" data-reveal>
+              <div class="field">
+                <label for="name">Namn</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div class="field">
+                <label for="email">E-post</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div class="field">
+                <label for="phone">Telefon</label>
+                <input id="phone" name="phone" type="tel" />
+              </div>
+              <div class="field">
+                <label for="message">Meddelande</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button class="btn btn-solid" type="submit">Skicka</button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div>
+            <img
+              class="footer-logo"
+              src="assets/logo-black.png"
+              alt="Lekri logo"
+              data-logo
+            />
+            <span class="logo-text" data-logo-text hidden>LEKRI</span>
+          </div>
+          <div>
+            <p class="footer-title">Öppettider</p>
+            <p>Mån-fre: 09.00-18.00</p>
+            <p>Lör: 10.00-15.00</p>
+          </div>
+          <div>
+            <p class="footer-title">Adress</p>
+            <p>Sandviken</p>
+            <p>Sverige</p>
+          </div>
+        </div>
+        <p class="footer-bottom">© 2026 Lekri. Alla rättigheter förbehållna.</p>
+      </footer>
+    </div>
+  </body>
+</html>
