@@ -81,7 +81,11 @@
       <main>
         <section class="hero">
           <div class="hero-media" aria-hidden="true">
-            <img src="assets/hero.jpg" alt="" />
+            <picture>
+              <source media="(max-width: 768px)" srcset="assets/hero-mobile.jpg" />
+              <source media="(min-width: 769px)" srcset="assets/hero.jpg" />
+              <img src="assets/hero.jpg" alt="" />
+            </picture>
           </div>
           <div class="hero-overlay" aria-hidden="true"></div>
           <div class="hero-content">
