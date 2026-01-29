@@ -52,7 +52,7 @@
             <a href="#tjanster">Våra tjänster</a>
             <a href="#produkter">Våra produkter</a>
             <a href="#kontakt">Kontakta oss</a>
-            <a class="btn btn-solid" href="#boka">Boka tid</a>
+            <button class="btn btn-solid booking-trigger">Boka tid</button>
           </div>
           <div class="nav-icons">
             <a
@@ -97,7 +97,7 @@
             </p>
             <div class="hero-actions" data-reveal>
               <a class="btn btn-outline" href="#om">Mer om oss</a>
-              <a class="btn btn-solid" href="#boka">Boka direkt</a>
+              <button class="btn btn-solid booking-trigger">Boka direkt</button>
             </div>
             <div class="hero-stats" data-reveal>
               <div>
@@ -333,34 +333,13 @@
               <p class="eyebrow">Boka tid</p>
               <h2>Välj en tid som passar dig</h2>
               <p>
-                Använd vår bokningswidget för att se lediga tider och boka direkt.
+                Klicka på knappen nedan för att se lediga tider och boka direkt.
               </p>
             </div>
-            <div class="booking-card">
-              <!-- MobileBooking Widget -->
-              <div id="mobilebooking-widget-bd1f2c21"></div>
-              <script>
-                (function() {
-                  var iframe = document.createElement('iframe');
-                  iframe.src = 'http://localhost:8080/book/bd1f2c21?primary=000000&headerBg=fff5f5&headerIcons=ffffff&layout=default&lang=swedish&textSize=big&prices=1&areaStep=0&config=%7B%22appearance%22%3A%7B%22primaryColor%22%3A%22%23000000%22%2C%22headerBg%22%3A%22%23fff5f5%22%2C%22headerIcons%22%3A%22%23ffffff%22%2C%22logoUrl%22%3A%22%22%2C%22hideBranding%22%3Afalse%7D%2C%22content%22%3A%7B%22startHeading%22%3A%22boka+din+klipptid%22%2C%22startText%22%3A%22v%C3%A4lj+%C3%B6nskad+tj%C3%A4nst%22%2C%22categoryHeading%22%3A%22V%C3%A4lj+k%C3%B6n%22%2C%22categoryText%22%3A%22V%C3%A4lj+kvinna+eller+man+f%C3%B6r+att+forts%C3%A4tta%22%2C%22serviceHeading%22%3A%22V%C3%A4lj+tj%C3%A4nst%22%2C%22serviceText%22%3A%22v%C3%A4lj+en+tj%C3%A4nst+f%C3%B6r+att+forts%C3%A4tta%22%2C%22schedulingHeading%22%3A%22Datum+%26+tid%22%2C%22schedulingText%22%3A%22Valj+ett+datum+och+tid+som+passar+dig.%22%2C%22contactHeading%22%3A%22Snart+klart%22%2C%22contactText%22%3A%22Ange+kontaktuppgifter+for+att+slutfora+bokningen.%22%2C%22contactButton%22%3A%22Boka%22%2C%22confirmationHeading%22%3A%22Tack+for+din+bokning%21%22%2C%22confirmationText%22%3A%22Vi+har+mottagit+din+bokning+och+skickat+en+bekr%C3%A4ftelse+till+din+e-post.%22%7D%2C%22general%22%3A%7B%22serviceArea%22%3A%22address%22%2C%22showServiceAreaStep%22%3Afalse%2C%22showEmployeeStep%22%3Atrue%2C%22layout%22%3A%22default%22%2C%22datePicker%22%3A%22available%22%2C%22language%22%3A%22Swedish%22%2C%22textSize%22%3A%22Big%22%2C%22showPrices%22%3Atrue%2C%22includeTax%22%3Atrue%2C%22autoAdvance%22%3Atrue%2C%22allowCoupons%22%3Afalse%2C%22showAllSteps%22%3Afalse%2C%22showDuration%22%3Afalse%2C%22limitAnimations%22%3Afalse%2C%22use24h%22%3Atrue%2C%22allowMulti%22%3Afalse%2C%22brandingLocked%22%3Atrue%7D%2C%22customQuestions%22%3A%5B%5D%2C%22services%22%3A%5B%7B%22id%22%3A%22svc-daa8614a-7f63-4bf6-b427-fe74dfb8a054%22%2C%22price%22%3A%22999+kr%22%2C%22title%22%3A%22Klippning%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22svc-7c76f1d2-bfc4-4835-82df-caa4b52223f5%22%2C%22price%22%3A%22799%22%2C%22title%22%3A%22Klippning%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-02229ebd-cadd-4f66-a486-522143aeea20%22%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22svc-5d5aabec-28ad-44f8-912f-6d1502368173%22%2C%22price%22%3A%221999%22%2C%22title%22%3A%22F%C3%A4rgning%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22svc-82740f94-77fe-4a7f-8832-ef76325f6ed2%22%2C%22price%22%3A%221299%22%2C%22title%22%3A%22styling%22%2C%22visible%22%3Atrue%2C%22duration%22%3A%221h%22%2C%22categoryId%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22description%22%3A%22%22%7D%5D%2C%22categories%22%3A%5B%7B%22id%22%3A%22cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369%22%2C%22name%22%3A%22Kvinna%22%2C%22visible%22%3Atrue%2C%22description%22%3A%22%22%7D%2C%7B%22id%22%3A%22cat-02229ebd-cadd-4f66-a486-522143aeea20%22%2C%22name%22%3A%22Man%22%2C%22visible%22%3Atrue%2C%22description%22%3A%22%22%7D%5D%2C%22territories%22%3A%5B%7B%22id%22%3A1765303858282%2C%22city%22%3A%22City%22%2C%22name%22%3A%22Sandviken%22%2C%22method%22%3A%22polygon%22%2C%22points%22%3A%5B%7B%22id%22%3A1765303840800%2C%22lat%22%3A60.64185094223452%2C%22lng%22%3A16.682895721054063%7D%2C%7B%22id%22%3A1765303841533%2C%22lat%22%3A60.69096289127516%2C%22lng%22%3A16.783145965194688%7D%2C%7B%22id%22%3A1765303843265%2C%22lat%22%3A60.69566832093011%2C%22lng%22%3A17.122348846054063%7D%2C%7B%22id%22%3A1765303843927%2C%22lat%22%3A60.670788965412136%2C%22lng%22%3A17.180027068710313%7D%2C%7B%22id%22%3A1765303845052%2C%22lat%22%3A60.616256160002536%2C%22lng%22%3A17.033084930038438%7D%2C%7B%22id%22%3A1765303846128%2C%22lat%22%3A60.593338340841896%2C%22lng%22%3A16.751560271835313%7D%5D%2C%22status%22%3A%22disabled%22%2C%22country%22%3A%22Country%22%2C%22timezone%22%3A%22Europe%2FStockholm%22%2C%22providers%22%3A%5B%22A1%22%2C%22B2%22%5D%7D%2C%7B%22id%22%3A1765385236369%2C%22city%22%3A%22City%22%2C%22name%22%3A%22New+Territory%22%2C%22method%22%3A%22polygon%22%2C%22points%22%3A%5B%7B%22id%22%3A1765385232788%2C%22lat%22%3A60.650938935491325%2C%22lng%22%3A16.817505062675462%7D%2C%7B%22id%22%3A1765385233358%2C%22lat%22%3A60.63309711863584%2C%22lng%22%3A16.680175961112962%7D%2C%7B%22id%22%3A1765385233844%2C%22lat%22%3A60.58119878908906%2C%22lng%22%3A16.707641781425462%7D%2C%7B%22id%22%3A1765385234280%2C%22lat%22%3A60.58794354775371%2C%22lng%22%3A16.802398861503587%7D%5D%2C%22status%22%3A%22active%22%2C%22country%22%3A%22Country%22%2C%22timezone%22%3A%22Europe%2FStockholm%22%2C%22providers%22%3A%5B%22A1%22%2C%22B2%22%5D%7D%2C%7B%22id%22%3A1768214000921%2C%22city%22%3A%22City%22%2C%22name%22%3A%22New+Territory%22%2C%22method%22%3A%22polygon%22%2C%22points%22%3A%5B%7B%22id%22%3A1768213997132%2C%22lat%22%3A59.403474031350214%2C%22lng%22%3A17.971069515800462%7D%2C%7B%22id%22%3A1768213997615%2C%22lat%22%3A59.38249783106469%2C%22lng%22%3A17.8907319913864%7D%2C%7B%22id%22%3A1768213998173%2C%22lat%22%3A59.352759319572534%2C%22lng%22%3A17.916824520683274%7D%2C%7B%22id%22%3A1768213998716%2C%22lat%22%3A59.364307954854986%2C%22lng%22%3A18.01982134685515%7D%5D%2C%22status%22%3A%22disabled%22%2C%22country%22%3A%22Country%22%2C%22timezone%22%3A%22Europe%2FStockholm%22%2C%22providers%22%3A%5B%22A1%22%2C%22B2%22%5D%7D%5D%7D&start=category';
-                  iframe.style.width = '100%';
-                  iframe.style.height = '750px';
-                  iframe.style.border = '1px solid #e5e7eb';
-                  iframe.style.borderRadius = '14px';
-                  iframe.style.overflow = 'hidden';
-                  iframe.setAttribute('allow', 'fullscreen');
-                  iframe.addEventListener('load', function() {
-                    try {
-                      iframe.contentWindow.postMessage({
-                        type: 'mobilebooking:config',
-                        slug: 'bd1f2c21',
-                        config: {"appearance":{"primaryColor":"#000000","headerBg":"#fff5f5","headerIcons":"#ffffff","logoUrl":"","hideBranding":false},"content":{"startHeading":"boka din klipptid","startText":"v\u00e4lj \u00f6nskad tj\u00e4nst","categoryHeading":"V\u00e4lj k\u00f6n","categoryText":"V\u00e4lj kvinna eller man f\u00f6r att forts\u00e4tta","serviceHeading":"V\u00e4lj tj\u00e4nst","serviceText":"v\u00e4lj en tj\u00e4nst f\u00f6r att forts\u00e4tta","schedulingHeading":"Datum & tid","schedulingText":"Valj ett datum och tid som passar dig.","contactHeading":"Snart klart","contactText":"Ange kontaktuppgifter for att slutfora bokningen.","contactButton":"Boka","confirmationHeading":"Tack for din bokning!","confirmationText":"Vi har mottagit din bokning och skickat en bekr\u00e4ftelse till din e-post."},"general":{"serviceArea":"address","showServiceAreaStep":false,"showEmployeeStep":true,"layout":"default","datePicker":"available","language":"Swedish","textSize":"Big","showPrices":true,"includeTax":true,"autoAdvance":true,"allowCoupons":false,"showAllSteps":false,"showDuration":false,"limitAnimations":false,"use24h":true,"allowMulti":false,"brandingLocked":true},"customQuestions":[],"services":[{"id":"svc-daa8614a-7f63-4bf6-b427-fe74dfb8a054","price":"999 kr","title":"Klippning","visible":true,"duration":"1h","categoryId":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","description":""},{"id":"svc-7c76f1d2-bfc4-4835-82df-caa4b52223f5","price":"799","title":"Klippning","visible":true,"duration":"1h","categoryId":"cat-02229ebd-cadd-4f66-a486-522143aeea20","description":""},{"id":"svc-5d5aabec-28ad-44f8-912f-6d1502368173","price":"1999","title":"F\u00e4rgning","visible":true,"duration":"1h","categoryId":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","description":""},{"id":"svc-82740f94-77fe-4a7f-8832-ef76325f6ed2","price":"1299","title":"styling","visible":true,"duration":"1h","categoryId":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","description":""}],"categories":[{"id":"cat-fa1418ad-afa1-4147-a0bd-b1bc64bae369","name":"Kvinna","visible":true,"description":""},{"id":"cat-02229ebd-cadd-4f66-a486-522143aeea20","name":"Man","visible":true,"description":""}],"territories":[{"id":1765303858282,"city":"City","name":"Sandviken","method":"polygon","points":[{"id":1765303840800,"lat":60.64185094223452,"lng":16.682895721054063},{"id":1765303841533,"lat":60.69096289127516,"lng":16.783145965194688},{"id":1765303843265,"lat":60.69566832093011,"lng":17.122348846054063},{"id":1765303843927,"lat":60.670788965412136,"lng":17.180027068710313},{"id":1765303845052,"lat":60.616256160002536,"lng":17.033084930038438},{"id":1765303846128,"lat":60.593338340841896,"lng":16.751560271835313}],"status":"disabled","country":"Country","timezone":"Europe/Stockholm","providers":["A1","B2"]},{"id":1765385236369,"city":"City","name":"New Territory","method":"polygon","points":[{"id":1765385232788,"lat":60.650938935491325,"lng":16.817505062675462},{"id":1765385233358,"lat":60.63309711863584,"lng":16.680175961112962},{"id":1765385233844,"lat":60.58119878908906,"lng":16.707641781425462},{"id":1765385234280,"lat":60.58794354775371,"lng":16.802398861503587}],"status":"active","country":"Country","timezone":"Europe/Stockholm","providers":["A1","B2"]},{"id":1768214000921,"city":"City","name":"New Territory","method":"polygon","points":[{"id":1768213997132,"lat":59.403474031350214,"lng":17.971069515800462},{"id":1768213997615,"lat":59.38249783106469,"lng":17.8907319913864},{"id":1768213998173,"lat":59.352759319572534,"lng":17.916824520683274},{"id":1768213998716,"lat":59.364307954854986,"lng":18.01982134685515}],"status":"disabled","country":"Country","timezone":"Europe/Stockholm","providers":["A1","B2"]}]}
-                      }, '*');
-                    } catch (e) {}
-                  });
-                  document.getElementById('mobilebooking-widget-bd1f2c21').appendChild(iframe);
-                })();
-              </script>
+            <div class="booking-cta">
+              <button class="btn btn-solid btn-large booking-trigger">
+                Boka tid nu
+              </button>
             </div>
           </div>
         </section>
@@ -436,6 +415,25 @@
         </div>
         <p class="footer-bottom">© 2026 Lekri. Alla rättigheter förbehållna.</p>
       </footer>
+    </div>
+
+    <!-- Booking Modal -->
+    <div class="booking-modal" id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="booking-modal-overlay"></div>
+      <div class="booking-modal-content">
+        <div class="booking-modal-header">
+          <h2 id="modal-title">Boka din tid</h2>
+          <button class="booking-modal-close" id="close-modal" aria-label="Stäng">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+        <div class="booking-modal-body">
+          <!-- Bookd Widget -->
+          <div id="bookd-widget-08cf53ba"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
